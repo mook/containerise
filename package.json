@@ -43,6 +43,7 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "punycode": "^2.3.0"
+    "punycode": "^2.3.0",
+    "tldts": "^6.1.18"
   }
 }
