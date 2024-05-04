@@ -3,6 +3,7 @@ import punycode from 'punycode';
 export const PREFIX_REGEX = '@';
 export const PREFIX_GLOB = '!';
 
+/** @returns {Element | null} */
 export const qs = (selector, node) => (node || document).querySelector(selector);
 export const qsAll = (selector, node) => (node || document).querySelectorAll(selector);
 export const ce = (tagName) => document.createElement(tagName);

@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
   "name": "Containerise",
-  "version": "3.9.0",
+  "version": "3.9.1",
   "description": "Firefox extension to automatically open websites in a container",
   "icons": {
-    "48": "icons/icon.png",
-    "96": "icons/icon.png"
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
   },
   "permissions": [
     "contextualIdentities",
@@ -25,10 +25,10 @@
   "background": {
     "scripts": ["index.js"]
   },
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
-      "id": "containerise@kinte.sh",
-      "strict_min_version": "53.0"
+      "id": "containerise@mook.github.io",
+      "strict_min_version": "57.0"
     }
   },
   "options_ui": {

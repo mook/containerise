@@ -95,7 +95,7 @@ export default class Preference {
    */
   async fillContainer() {
     const $label = qs('.preference__label', this.$container);
-    $label.innerHTML = this.label;
+    $label.textContent = this.label;
     this._addDescription($label);
     this._fillDocLink();
 

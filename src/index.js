@@ -1,5 +1,7 @@
 import './manifest.json';
 import '../static/icons/icon.png';
+import '../static/icons/icon-48.png';
+import '../static/icons/icon-96.png';
 import '../docs/ui-preferences/default_containers.md';
 import {tabUpdatedListener, webRequestListener} from './containers';
 import {messageExternalListener} from './messageExternalListener';

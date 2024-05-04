@@ -46,7 +46,7 @@ export default class PreferenceGroup extends Preference {
 
   async fillContainer() {
     const $label = qs('.pref-group__label', this.$container);
-    $label.innerHTML = this.label;
+    $label.textContent = this.label;
     this._addDescription($label);
     this._fillDocLink();
     this._createOnChange('change');

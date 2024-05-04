@@ -58,7 +58,7 @@ class ContainerSelector {
       icon.style.background = identity.colorCode;
     }
     const name = qs('.name', item);
-    name.innerHTML = identity.name;
+    name.textContent = identity.name;
 
     return item;
   }
